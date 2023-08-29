@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Tumbly";
+  src: url("../font/subset-Tumbly.woff2") format("woff2"),
+    url("../font/subset-Tumbly.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1588421357574-87938a86fa28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: "Tumbly";
+  font-weight: normal;
+  font-style: normal;
+}
+
+td,
+th {
+  color: white;
+}
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #011a35;
+  color: white;
+}
+
+form {
+  width: 100%;
+  text-align: center;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
